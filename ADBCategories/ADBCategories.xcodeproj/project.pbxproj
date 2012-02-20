@@ -15,6 +15,7 @@
 		D3D427EB14F2F69100886AE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D427EA14F2F69100886AE2 /* AppDelegate.m */; };
 		D3D427F714F2F6A400886AE2 /* NSArray+ADB.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D427F314F2F6A400886AE2 /* NSArray+ADB.m */; };
 		D3D427F814F2F6A400886AE2 /* UIView+ADB.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D427F614F2F6A400886AE2 /* UIView+ADB.m */; };
+		D3D427FD14F2F83900886AE2 /* UIAlertView+ADB.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D427FC14F2F83900886AE2 /* UIAlertView+ADB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		D3D427F314F2F6A400886AE2 /* NSArray+ADB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ADB.m"; sourceTree = "<group>"; };
 		D3D427F514F2F6A400886AE2 /* UIView+ADB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ADB.h"; sourceTree = "<group>"; };
 		D3D427F614F2F6A400886AE2 /* UIView+ADB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ADB.m"; sourceTree = "<group>"; };
+		D3D427FB14F2F83900886AE2 /* UIAlertView+ADB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+ADB.h"; sourceTree = "<group>"; };
+		D3D427FC14F2F83900886AE2 /* UIAlertView+ADB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+ADB.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,8 +125,19 @@
 			children = (
 				D3D427F114F2F6A400886AE2 /* NSArray */,
 				D3D427F414F2F6A400886AE2 /* UIView */,
+				D3D427FA14F2F83900886AE2 /* UIAlertView */,
 			);
 			name = Src;
+			sourceTree = "<group>";
+		};
+		D3D427FA14F2F83900886AE2 /* UIAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				D3D427FB14F2F83900886AE2 /* UIAlertView+ADB.h */,
+				D3D427FC14F2F83900886AE2 /* UIAlertView+ADB.m */,
+			);
+			name = UIAlertView;
+			path = ../UIAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +206,7 @@
 				D3D427EB14F2F69100886AE2 /* AppDelegate.m in Sources */,
 				D3D427F714F2F6A400886AE2 /* NSArray+ADB.m in Sources */,
 				D3D427F814F2F6A400886AE2 /* UIView+ADB.m in Sources */,
+				D3D427FD14F2F83900886AE2 /* UIAlertView+ADB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +270,7 @@
 		D3D427EF14F2F69100886AE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ADBCategories/ADBCategories-Prefix.pch";
 				INFOPLIST_FILE = "ADBCategories/ADBCategories-Info.plist";
@@ -266,6 +282,7 @@
 		D3D427F014F2F69100886AE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ADBCategories/ADBCategories-Prefix.pch";
 				INFOPLIST_FILE = "ADBCategories/ADBCategories-Info.plist";
