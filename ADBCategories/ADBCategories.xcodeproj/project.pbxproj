@@ -16,6 +16,8 @@
 		D3D427F714F2F6A400886AE2 /* NSArray+ADB.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D427F314F2F6A400886AE2 /* NSArray+ADB.m */; };
 		D3D427F814F2F6A400886AE2 /* UIView+ADB.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D427F614F2F6A400886AE2 /* UIView+ADB.m */; };
 		D3D427FD14F2F83900886AE2 /* UIAlertView+ADB.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D427FC14F2F83900886AE2 /* UIAlertView+ADB.m */; };
+		D3D4280114F2FA1700886AE2 /* NSBundle+ADB.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D4280014F2FA1700886AE2 /* NSBundle+ADB.m */; };
+		D3D4280514F2FAEC00886AE2 /* NSUserDefaults+ADB.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D4280414F2FAEC00886AE2 /* NSUserDefaults+ADB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,10 @@
 		D3D427F614F2F6A400886AE2 /* UIView+ADB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ADB.m"; sourceTree = "<group>"; };
 		D3D427FB14F2F83900886AE2 /* UIAlertView+ADB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+ADB.h"; sourceTree = "<group>"; };
 		D3D427FC14F2F83900886AE2 /* UIAlertView+ADB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+ADB.m"; sourceTree = "<group>"; };
+		D3D427FF14F2FA1700886AE2 /* NSBundle+ADB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+ADB.h"; sourceTree = "<group>"; };
+		D3D4280014F2FA1700886AE2 /* NSBundle+ADB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+ADB.m"; sourceTree = "<group>"; };
+		D3D4280314F2FAEC00886AE2 /* NSUserDefaults+ADB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+ADB.h"; sourceTree = "<group>"; };
+		D3D4280414F2FAEC00886AE2 /* NSUserDefaults+ADB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+ADB.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,8 @@
 				D3D427F114F2F6A400886AE2 /* NSArray */,
 				D3D427F414F2F6A400886AE2 /* UIView */,
 				D3D427FA14F2F83900886AE2 /* UIAlertView */,
+				D3D427FE14F2FA1700886AE2 /* NSBundle */,
+				D3D4280214F2FAEC00886AE2 /* NSUserDefaults */,
 			);
 			name = Src;
 			sourceTree = "<group>";
@@ -138,6 +146,26 @@
 			);
 			name = UIAlertView;
 			path = ../UIAlertView;
+			sourceTree = "<group>";
+		};
+		D3D427FE14F2FA1700886AE2 /* NSBundle */ = {
+			isa = PBXGroup;
+			children = (
+				D3D427FF14F2FA1700886AE2 /* NSBundle+ADB.h */,
+				D3D4280014F2FA1700886AE2 /* NSBundle+ADB.m */,
+			);
+			name = NSBundle;
+			path = ../NSBundle;
+			sourceTree = "<group>";
+		};
+		D3D4280214F2FAEC00886AE2 /* NSUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				D3D4280314F2FAEC00886AE2 /* NSUserDefaults+ADB.h */,
+				D3D4280414F2FAEC00886AE2 /* NSUserDefaults+ADB.m */,
+			);
+			name = NSUserDefaults;
+			path = ../NSUserDefaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +235,8 @@
 				D3D427F714F2F6A400886AE2 /* NSArray+ADB.m in Sources */,
 				D3D427F814F2F6A400886AE2 /* UIView+ADB.m in Sources */,
 				D3D427FD14F2F83900886AE2 /* UIAlertView+ADB.m in Sources */,
+				D3D4280114F2FA1700886AE2 /* NSBundle+ADB.m in Sources */,
+				D3D4280514F2FAEC00886AE2 /* NSUserDefaults+ADB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
