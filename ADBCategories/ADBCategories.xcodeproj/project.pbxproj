@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D37F292614F2FF2E005E0B5D /* UIPasteboard+ADB.m in Sources */ = {isa = PBXBuildFile; fileRef = D37F292514F2FF2E005E0B5D /* UIPasteboard+ADB.m */; };
 		D3D427DB14F2F69100886AE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D427DA14F2F69100886AE2 /* UIKit.framework */; };
 		D3D427DD14F2F69100886AE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D427DC14F2F69100886AE2 /* Foundation.framework */; };
 		D3D427DF14F2F69100886AE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D427DE14F2F69100886AE2 /* CoreGraphics.framework */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D37F292414F2FF2E005E0B5D /* UIPasteboard+ADB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPasteboard+ADB.h"; sourceTree = "<group>"; };
+		D37F292514F2FF2E005E0B5D /* UIPasteboard+ADB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPasteboard+ADB.m"; sourceTree = "<group>"; };
 		D3D427D614F2F69100886AE2 /* ADBCategories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADBCategories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D427DA14F2F69100886AE2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D3D427DC14F2F69100886AE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,6 +60,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D37F292314F2FF2E005E0B5D /* UIPasteboard */ = {
+			isa = PBXGroup;
+			children = (
+				D37F292414F2FF2E005E0B5D /* UIPasteboard+ADB.h */,
+				D37F292514F2FF2E005E0B5D /* UIPasteboard+ADB.m */,
+			);
+			name = UIPasteboard;
+			path = ../UIPasteboard;
+			sourceTree = "<group>";
+		};
 		D3D427CB14F2F69000886AE2 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +147,7 @@
 				D3D427FA14F2F83900886AE2 /* UIAlertView */,
 				D3D427FE14F2FA1700886AE2 /* NSBundle */,
 				D3D4280214F2FAEC00886AE2 /* NSUserDefaults */,
+				D37F292314F2FF2E005E0B5D /* UIPasteboard */,
 			);
 			name = Src;
 			sourceTree = "<group>";
@@ -237,6 +251,7 @@
 				D3D427FD14F2F83900886AE2 /* UIAlertView+ADB.m in Sources */,
 				D3D4280114F2FA1700886AE2 /* NSBundle+ADB.m in Sources */,
 				D3D4280514F2FAEC00886AE2 /* NSUserDefaults+ADB.m in Sources */,
+				D37F292614F2FF2E005E0B5D /* UIPasteboard+ADB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +355,7 @@
 				D3D427F014F2F69100886AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
