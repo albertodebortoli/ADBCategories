@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3766C1B15128DCA00F1237E /* NSString+ADB.m in Sources */ = {isa = PBXBuildFile; fileRef = D3766C1A15128DCA00F1237E /* NSString+ADB.m */; };
 		D37F292614F2FF2E005E0B5D /* UIPasteboard+ADB.m in Sources */ = {isa = PBXBuildFile; fileRef = D37F292514F2FF2E005E0B5D /* UIPasteboard+ADB.m */; };
 		D3D427DB14F2F69100886AE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D427DA14F2F69100886AE2 /* UIKit.framework */; };
 		D3D427DD14F2F69100886AE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D427DC14F2F69100886AE2 /* Foundation.framework */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D3766C1915128DCA00F1237E /* NSString+ADB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ADB.h"; sourceTree = "<group>"; };
+		D3766C1A15128DCA00F1237E /* NSString+ADB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ADB.m"; sourceTree = "<group>"; };
 		D37F292414F2FF2E005E0B5D /* UIPasteboard+ADB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPasteboard+ADB.h"; sourceTree = "<group>"; };
 		D37F292514F2FF2E005E0B5D /* UIPasteboard+ADB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPasteboard+ADB.m"; sourceTree = "<group>"; };
 		D3D427D614F2F69100886AE2 /* ADBCategories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADBCategories.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +63,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3766C1815128DCA00F1237E /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				D3766C1915128DCA00F1237E /* NSString+ADB.h */,
+				D3766C1A15128DCA00F1237E /* NSString+ADB.m */,
+			);
+			name = NSString;
+			path = ../NSString;
+			sourceTree = "<group>";
+		};
 		D37F292314F2FF2E005E0B5D /* UIPasteboard */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +155,7 @@
 		D3D427F914F2F6B300886AE2 /* Src */ = {
 			isa = PBXGroup;
 			children = (
+				D3766C1815128DCA00F1237E /* NSString */,
 				D3D427F114F2F6A400886AE2 /* NSArray */,
 				D3D427F414F2F6A400886AE2 /* UIView */,
 				D3D427FA14F2F83900886AE2 /* UIAlertView */,
@@ -252,6 +266,7 @@
 				D3D4280114F2FA1700886AE2 /* NSBundle+ADB.m in Sources */,
 				D3D4280514F2FAEC00886AE2 /* NSUserDefaults+ADB.m in Sources */,
 				D37F292614F2FF2E005E0B5D /* UIPasteboard+ADB.m in Sources */,
+				D3766C1B15128DCA00F1237E /* NSString+ADB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
