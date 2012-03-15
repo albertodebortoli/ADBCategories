@@ -16,6 +16,7 @@
 #import "NSBundle+ADB.h"
 #import "NSUserDefaults+ADB.h"
 #import "UIPasteboard+ADB.h"
+#import "NSObject+ADB.h"
 
 @implementation AppDelegate
 

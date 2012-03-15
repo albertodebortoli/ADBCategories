@@ -1,5 +1,5 @@
 //
-//  NSString+ADB.h
+//  NSString+ADB.m
 //  ADBCategories
 //
 //  Created by Alberto De Bortoli on 15/03/12.
