@@ -17,6 +17,7 @@
 #import "NSUserDefaults+ADB.h"
 #import "UIPasteboard+ADB.h"
 #import "NSObject+ADB.h"
+#import "UIFont+ADB.h"
 
 @implementation AppDelegate
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D320E695151557E10070CF49 /* UIFont+ADB.m in Sources */ = {isa = PBXBuildFile; fileRef = D320E694151557E10070CF49 /* UIFont+ADB.m */; };
 		D3766C1B15128DCA00F1237E /* NSString+ADB.m in Sources */ = {isa = PBXBuildFile; fileRef = D3766C1A15128DCA00F1237E /* NSString+ADB.m */; };
 		D3766C1F1512933300F1237E /* NSDate+ADB.m in Sources */ = {isa = PBXBuildFile; fileRef = D3766C1E1512933300F1237E /* NSDate+ADB.m */; };
 		D3766C231512945F00F1237E /* UIColor+ADB.m in Sources */ = {isa = PBXBuildFile; fileRef = D3766C221512945F00F1237E /* UIColor+ADB.m */; };
@@ -26,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D320E693151557E10070CF49 /* UIFont+ADB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+ADB.h"; sourceTree = "<group>"; };
+		D320E694151557E10070CF49 /* UIFont+ADB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+ADB.m"; sourceTree = "<group>"; };
 		D3766C1915128DCA00F1237E /* NSString+ADB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ADB.h"; sourceTree = "<group>"; };
 		D3766C1A15128DCA00F1237E /* NSString+ADB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ADB.m"; sourceTree = "<group>"; };
 		D3766C1D1512933300F1237E /* NSDate+ADB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ADB.h"; sourceTree = "<group>"; };
@@ -72,6 +75,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D320E692151557E10070CF49 /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				D320E693151557E10070CF49 /* UIFont+ADB.h */,
+				D320E694151557E10070CF49 /* UIFont+ADB.m */,
+			);
+			name = UIFont;
+			path = ../UIFont;
+			sourceTree = "<group>";
+		};
 		D3766C1815128DCA00F1237E /* NSString */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +207,7 @@
 		D3D427F914F2F6B300886AE2 /* Src */ = {
 			isa = PBXGroup;
 			children = (
+				D320E692151557E10070CF49 /* UIFont */,
 				D3766C3E15129AB800F1237E /* NSObject */,
 				D3766C201512945F00F1237E /* UIColor */,
 				D3766C1C1512933300F1237E /* NSDate */,
@@ -312,6 +326,7 @@
 				D3766C1F1512933300F1237E /* NSDate+ADB.m in Sources */,
 				D3766C231512945F00F1237E /* UIColor+ADB.m in Sources */,
 				D3766C4115129AB800F1237E /* NSObject+ADB.m in Sources */,
+				D320E695151557E10070CF49 /* UIFont+ADB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
