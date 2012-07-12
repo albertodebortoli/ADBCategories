@@ -10,7 +10,7 @@
 
 @interface UIPasteboard (ADB)
 
-+ (void)copyURLToPasteboard:(NSString *)path;
++ (void)copyStringToPasteboard:(NSString *)path;
 + (void)copyImageToPasteboard:(UIImage *)image;
 
 @end

@@ -10,7 +10,7 @@
 
 @implementation UIPasteboard (ADB)
 
-+ (void)copyURLToPasteboard:(NSString *)path
++ (void)copyStringToPasteboard:(NSString *)path
 {
     [UIPasteboard generalPasteboard].string = path;
 }
